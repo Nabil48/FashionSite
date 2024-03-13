@@ -1,0 +1,67 @@
+    body {
+    margin: 0;
+    padding: 0;
+    background-image: url(Netfilx.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    width: 420px;
+    height: 65vh;
+    padding: 14px;
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 20px 30px 30px 20px;
+    justify-content: center;
+    align-items: center;
+  }
+h1 {
+    /* margin-right: 250px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    float: left;
+    padding-right: 240px;
+  }
+/* input {
+    background-color: gray;
+    width: 85%;
+    padding: 8px; ;
+    margin: 10px;
+} */
+button{
+    padding: 8px 130px;
+    width: 86%;
+    background-color: rgb(255, 0, 0);
+    border-radius: 6px;
+    margin: 10px;
+    border: 2px solid rgb(255, 0, 0);
+    color: white;
+}
+
+.help {
+    float: right;
+    color: white;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sign-in input[type="radio"]{
+    color: white;
+    background-color: white;
+}
+.sign-in input[type="text"],
+.sign-in input[type="password"] {
+    color: rgba(255, 255, 255, 0.322);
+  width: 85%;
+  padding: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.425);
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
